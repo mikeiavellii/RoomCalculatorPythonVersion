@@ -1,10 +1,10 @@
 
 print("Welcome to the Grand Circus Room Detail Generator\n")
 
-length = input("Enter the length of the classroom: ")
-width = input("Enter the width of the classroom: ")
-Area = length * width
-Perimeter = (length + width) * 2
+length = int(input("Enter the length of the classroom: "))
+width = int(input("Enter the width of the classroom: "))
+Area = (length) * (width)
+Perimeter = length + width * 2
 print(f"{Area} Sqft.")
 print(f"{Perimeter} Sqft.")
 if (Area <= 250):
